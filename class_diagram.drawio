@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T16:51:46.281Z" agent="5.0 (Macintosh)" etag="8EcGQ4SjMtwQRfGR2K6W" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-02T16:53:31.570Z" agent="5.0 (Macintosh)" etag="m-_M4rr78s4CDP-aR87D" version="20.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="925" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,7 +114,7 @@
         <mxCell id="b5-lC_gH31U_IA7LsAaC-34" value="cancel_booking()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b5-lC_gH31U_IA7LsAaC-26">
           <mxGeometry y="220" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="b5-lC_gH31U_IA7LsAaC-35" value="Studio" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="b5-lC_gH31U_IA7LsAaC-35" value="Studio 2: Studio" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="440" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="b5-lC_gH31U_IA7LsAaC-36" value="Studio: &quot;Studio 2&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b5-lC_gH31U_IA7LsAaC-35">
@@ -132,7 +132,7 @@
         <mxCell id="b5-lC_gH31U_IA7LsAaC-91" value="price_per_hour: 9" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b5-lC_gH31U_IA7LsAaC-35">
           <mxGeometry x="10" y="100" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="b5-lC_gH31U_IA7LsAaC-40" value="Booking" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="b5-lC_gH31U_IA7LsAaC-40" value="Jim Bobb: Booking" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="440" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="b5-lC_gH31U_IA7LsAaC-41" value="booking_name: &quot;Jim Bobb&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b5-lC_gH31U_IA7LsAaC-40">
@@ -190,7 +190,7 @@
         <mxCell id="b5-lC_gH31U_IA7LsAaC-76" value="cancel_booking()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b5-lC_gH31U_IA7LsAaC-68">
           <mxGeometry y="220" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="b5-lC_gH31U_IA7LsAaC-77" value="Studio" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="b5-lC_gH31U_IA7LsAaC-77" value="Studio 3: Studio" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="730" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="b5-lC_gH31U_IA7LsAaC-78" value="Studio: &quot;Studio 3&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b5-lC_gH31U_IA7LsAaC-77">
@@ -208,7 +208,7 @@
         <mxCell id="b5-lC_gH31U_IA7LsAaC-93" value="price_per_hour: 8" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b5-lC_gH31U_IA7LsAaC-77">
           <mxGeometry x="9" y="100" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="b5-lC_gH31U_IA7LsAaC-82" value="Booking" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="b5-lC_gH31U_IA7LsAaC-82" value="Rita Toussaint: Booking" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="730" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="b5-lC_gH31U_IA7LsAaC-83" value="booking_name: &quot;Rita Toussaint&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b5-lC_gH31U_IA7LsAaC-82">
