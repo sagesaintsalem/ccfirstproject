@@ -1,0 +1,9 @@
+create_booking function:
+
+bookings = list
+name = from booking form(field: ‘name’)
+date = from booking form(field: ‘date’)
+time = from booking form(field: ‘time’)
+cost = from booking form(field: ‘cost’)
+new_booking = (name, date, time, cost) in Booking class
+add new_booking to bookings
