@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T21:01:32.491Z" agent="5.0 (Macintosh)" etag="nj2mOugl62dZchLv1hAo" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-03T13:09:16.057Z" agent="5.0 (Macintosh)" etag="LXQtdHaK16jmYM0OysAP" version="20.5.3" type="github">
   <diagram id="YzovN8eB3ZMi87oyrWJg" name="Page-1">
     <mxGraphModel dx="1169" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,15 +116,24 @@
             <mxRectangle width="223" height="153" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="AIQYkP_hiyhNMu18dmYw-86" value="I am only working on this app for a week" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="AIQYkP_hiyhNMu18dmYw-68">
+          <mxGeometry x="16.5" y="36.5" width="190" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="AIQYkP_hiyhNMu18dmYw-69" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="AIQYkP_hiyhNMu18dmYw-67">
           <mxGeometry x="313" width="224" height="153" as="geometry">
             <mxRectangle width="224" height="153" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="AIQYkP_hiyhNMu18dmYw-87" value="A one-week deadline means that I cannot add as many features as I might want as I have to focus only on what is essential" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="AIQYkP_hiyhNMu18dmYw-69">
+          <mxGeometry x="7" y="36.5" width="200" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="AIQYkP_hiyhNMu18dmYw-70" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="AIQYkP_hiyhNMu18dmYw-67">
           <mxGeometry x="537" width="223" height="153" as="geometry">
             <mxRectangle width="223" height="153" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AIQYkP_hiyhNMu18dmYw-88" value="With only the essentials, I cannot write additional but unnecessary features, e.g. pop-up windows asking the user for confirmation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="AIQYkP_hiyhNMu18dmYw-70">
+          <mxGeometry x="11.5" y="36.5" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
