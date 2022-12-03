@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T14:03:45.978Z" agent="5.0 (Macintosh)" etag="7TjuUTLgOR-13QdIGD4c" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-03T14:03:58.555Z" agent="5.0 (Macintosh)" etag="ej4OZlhExbScoDqz0FT-" version="20.5.3" type="github">
   <diagram id="YzovN8eB3ZMi87oyrWJg" name="Page-1">
     <mxGraphModel dx="1026" dy="414" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,7 +131,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AIQYkP_hiyhNMu18dmYw-84" value="Without a budget, I cannot hire people to work on my app and thus cannot add more features in this one-week timespan. I also cannot afford a server to host my app on for constant online access." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;" parent="AIQYkP_hiyhNMu18dmYw-73" vertex="1">
-          <mxGeometry x="17" y="19.5" width="180" height="120" as="geometry" />
+          <mxGeometry x="17" y="19.5" width="192" height="120" as="geometry" />
         </mxCell>
         <mxCell id="AIQYkP_hiyhNMu18dmYw-74" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" parent="AIQYkP_hiyhNMu18dmYw-71" vertex="1">
           <mxGeometry x="537" width="223" height="167" as="geometry">
