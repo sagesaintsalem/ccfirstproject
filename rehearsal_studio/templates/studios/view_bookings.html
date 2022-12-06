@@ -1,16 +1,26 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="container">
-    <div class="booking">
+<div class="booking-container">
+
         {% for filtered_booking in filtered_bookings %}
+        <div class="booking">
             <ul class="booking-listing">
                 <li>Name: {{filtered_booking.user_id.name}}</li>
                 <li>Date: {{filtered_booking.date}}</li>
                 <li>Time: {{filtered_booking.time}}</li>
                 <li>Attendees: {{filtered_booking.attendees}}</li>
             </ul>
+        </div>    
         {% endfor %}
-    </div>
+    
+</div>
+{% endblock %}
+
+{% block footer %}
+<div id="buttons">
+    <form action="/bookings_by_studio">
+        <button type="submit">Back to Studios</button>
+    </form>
 </div>
 {% endblock %}

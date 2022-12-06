@@ -50,6 +50,13 @@ h1 {
     align-content: center;
 }
 
+.booking-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
 .booking {
     height:250px;
     width: 300px;
@@ -117,6 +124,10 @@ h1 {
     font-size: 20px;
 }
 
+/* #item > label {
+
+} */
+
 footer {
     display: flex;
     justify-content: center;
@@ -170,6 +181,23 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     background-color: #a7c7c5;
+    box-shadow: 1px 2px 3px 4px;
+    font-size: 18px;
+}
+
+.submit-dammit {
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+.submit-dammit > button {
+    background-color: #fad481;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    height: 75px;
+    width: 150px;
     box-shadow: 1px 2px 3px 4px;
 }
 

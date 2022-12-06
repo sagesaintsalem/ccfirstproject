@@ -1,5 +1,3 @@
-import datetime
-from models.user import User
 class Bookings:
     def __init__(self, user_id, studio_id, date, time, attendees, id=None):
         self.user_id = user_id
