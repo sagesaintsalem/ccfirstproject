@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <form action="/view_all" method="post">
+        <section class="form-box">
+            <div class="form-background">
+                <div id="item">
+                    <label for="name">
+                        Name: 
+                    </label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="item">
+                    <label for="studio">
+                        Studio:
+                    </label>
+                    <select id="studio" name="studio">
+                        {% for studio in studios %}
+                            <option value="{{ studio.id }}">{{ studio.studio_number }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="item">
+                    <label for="date">Date: </label>
+                    <input type="date" name="date" id="date">
+                </div>
+
+                <div class="item">
+                    <label for="time">
+                        Time: 
+                    </label>
+                    <select name="time" id="time">
+                        <option value="10:00">10:00</option>
+                        <option value="11:00">11:00</option>
+                        <option value="12:00">12:00</option>
+                        <option value="13:00">13:00</option>
+                        <option value="14:00">14:00</option>
+                    </select>
+                </div>
+
+                <div class="item">
+                    <label for="attendees">
+                        Attendees: 
+                    </label>
+                    <input type="text" name="attendees" id="attendees">
+
+                </div>
+                <button type="submit">Create Booking</button>
+            </div>
+        </section>
+    </form>
+{% endblock %}

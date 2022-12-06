@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <div class="container">
+        {% for booking in all_bookings %}
+        <div class="booking">
+           
+            <ul>
+                <li>Name: {{booking.user_id}}</li>
+                <li>Studio: {{booking.studio_id}}</li>
+                <li>Date: {{booking.date}}</li>
+                <li>Time: {{booking.time}}</li>
+                <li>Attendees: {{booking.attendees}}</li>
+            </ul>
+            <form action="/{{ booking.id }}/delete" method="post">
+                <button type="submit">Delete</button>
+            </form>
+            <br>
+            <form action="/ {{ booking.id }}/edit">
+                <button type="submit">Edit</button>
+            </form>
+        </div>    
+        {% endfor %}
+    </div>
+
+
+{% endblock %}

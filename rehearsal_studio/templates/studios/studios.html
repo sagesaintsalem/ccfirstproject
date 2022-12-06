@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <section class="studio-container">
+        <div class="studio-listing">
+            <div id="item">
+                <h2>STUDIO 1</h2>
+            </div>
+
+            <div id="item">
+            <img src="/static/img/90s_Gibson.jpg" width="200px" height="250px">
+            </div>
+
+            <div id="item">
+            <h5>Our largest studio! This studio can hold 10 people.</h5>
+            </div>
+
+        
+        </div>
+
+        <div class="studio-listing">
+            <div id="item">
+                <h2>STUDIO 2</h2>
+            </div>
+
+            <div id="item">
+            <img src="/static/img/90s_Gibson.jpg" width="200px" height="250px">
+            </div>
+
+            <div id="item">
+            <h5>Our medium studio! This studio can hold 8 people.</h5>
+            </div>
+
+            
+        </div>
+
+        <div class="studio-listing">
+            <div id="item">
+                <h2>STUDIO 3</h2>
+            </div>
+
+            <div id="item">
+            <img src="/static/img/90s_Gibson.jpg" width="200px" height="250px">
+            </div>
+
+            <div id="item">
+            <h5>Our smallest studio! This studio can hold 5 people.</h5>
+            </div>
+        
+        
+
+        </div>
+
+        
+    </section>
+
+
+{% endblock %}
+
+{% block footer %}
+<footer>
+    <section class="button-container">
+        <div class="button-div">
+                {% for studio in studios %}
+            
+                    <div id="buttons">
+                        <form action="/bookings_by_studio/{{ studio.id }}">
+                            <button type="submit">View Studio {{ studio.id }}</button>
+                        </form>
+                    </div>
+                {% endfor %}
+        </div>
+    </section>
+</footer>
+{% endblock %}
