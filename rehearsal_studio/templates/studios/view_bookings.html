@@ -7,7 +7,7 @@
         <div class="booking">
             <ul class="booking-listing">
                 <li>Name: {{filtered_booking.user_id.name}}</li>
-                <li>Date: {{filtered_booking.date}}</li>
+                <li>Date: {{filtered_booking.date.strftime("%d %B %Y")}}</li>
                 <li>Time: {{filtered_booking.time}}</li>
                 <li>Attendees: {{filtered_booking.attendees}}</li>
             </ul>

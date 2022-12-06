@@ -9,7 +9,7 @@
             <ul>
                 <li>Name: {{booking.user_id}}</li>
                 <li>Studio: {{booking.studio_id}}</li>
-                <li>Date: {{booking.date}}</li>
+                <li>Date: {{booking.date.strftime("%d %B %Y")}}</li>
                 <li>Time: {{booking.time}}</li>
                 <li>Attendees: {{booking.attendees}}</li>
             </ul>

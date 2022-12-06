@@ -33,24 +33,24 @@
                 <label for="time">
                     Time: 
                 </label>
-                <select name="time" id="time" value="{{ booking.time }}">
-                        <option value="07:00">07:00</option>
-                        <option value="08:00">08:00</option>
-                        <option value="09:00">09:00</option>
-                        <option value="10:00">10:00</option>
-                        <option value="11:00">11:00</option>
-                        <option value="12:00">12:00</option>
-                        <option value="13:00">13:00</option>
-                        <option value="14:00">14:00</option>
-                        <option value="15:00">15:00</option>
-                        <option value="16:00">16:00</option>
-                        <option value="17:00">17:00</option>
-                        <option value="18:00">18:00</option>
-                        <option value="19:00">19:00</option>
-                        <option value="20:00">20:00</option>
-                        <option value="21:00">21:00</option>
-                        <option value="22:00">22:00</option>
-                        <option value="23:00">23:00</option>
+                <select name="time" id="time">
+                        <option value="07:00" {% if booking.time == "07:00" %}selected{% endif %}>07:00</option>
+                        <option value="08:00" {% if booking.time == "08:00" %}selected{% endif %}>08:00</option>
+                        <option value="09:00" {% if booking.time == "09:00" %}selected{% endif %}>09:00</option>
+                        <option value="10:00" {% if booking.time == "10:00" %}selected{% endif %}>10:00</option>
+                        <option value="11:00" {% if booking.time == "11:00" %}selected{% endif %}>11:00</option>
+                        <option value="12:00" {% if booking.time == "12:00" %}selected{% endif %}>12:00</option>
+                        <option value="13:00" {% if booking.time == "13:00" %}selected{% endif %}>13:00</option>
+                        <option value="14:00" {% if booking.time == "14:00" %}selected{% endif %}>14:00</option>
+                        <option value="15:00" {% if booking.time == "15:00" %}selected{% endif %}>15:00</option>
+                        <option value="16:00" {% if booking.time == "16:00" %}selected{% endif %}>16:00</option>
+                        <option value="17:00" {% if booking.time == "17:00" %}selected{% endif %}>17:00</option>
+                        <option value="18:00" {% if booking.time == "18:00" %}selected{% endif %}>18:00</option>
+                        <option value="19:00" {% if booking.time == "19:00" %}selected{% endif %}>19:00</option>
+                        <option value="20:00" {% if booking.time == "20:00" %}selected{% endif %}>20:00</option>
+                        <option value="21:00" {% if booking.time == "21:00" %}selected{% endif %}>21:00</option>
+                        <option value="22:00" {% if booking.time == "22:00" %}selected{% endif %}>22:00</option>
+                        <option value="23:00" {% if booking.time == "23:00" %}selected{% endif %}>23:00</option>
                 </select>
             </div>
 
