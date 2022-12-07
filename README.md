@@ -57,3 +57,19 @@ console.py - this loads the SQL tables with data
 |
 |
 run_tests.py - this runs the tests written in the tasks folder
+
+----------------
+Brief
+----------------
+- create bookings
+- show bookings
+- update/edit bookings
+- delete bookings
+- make it pretty!
+
+Additional requirements
+-----------------
+- filter bookings by studio
+- add capacity to studios, implement a method to prevent overcrowding based on those capacities
+- add a feature that prevents double-booking
+
