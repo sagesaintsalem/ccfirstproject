@@ -1,6 +1,6 @@
 # ccfirstproject
 
-This app allows the user to make bookings for an imaginary music rehearsal studio. 
+This app allows the user to make bookings for an imaginary music rehearsal studio. Created with Python, SQL, PSQL, Flask, HTML and CSS.
 
 controllers
 |
@@ -57,6 +57,21 @@ console.py - this loads the SQL tables with data
 |
 |
 run_tests.py - this runs the tests written in the tasks folder
+
+----------------
+How to Run
+----------------
+
+In the terminal:
+- dropdb rehearsal_bookings
+- createdb rehearsal_bookings
+- psql -d rehearsal_bookings -f db/rehearsal_bookings.sql
+- python3 console.py
+- flask run
+
+In browser:
+- localhost:4999/
+
 
 ----------------
 Brief
