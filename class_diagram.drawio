@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T17:32:42.136Z" agent="5.0 (Macintosh)" etag="17uT5WT5eZKyr_si6fH2" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-07T17:35:02.405Z" agent="5.0 (Macintosh)" etag="FN7dZCY7pgozre-Q_OI7" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="925" dy="487" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1369" pageHeight="960" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1369" pageHeight="960" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -103,10 +103,10 @@
         <mxCell id="b5-lC_gH31U_IA7LsAaC-40" value="Jim Bobb: Booking" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1032" y="404" width="272" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="b5-lC_gH31U_IA7LsAaC-41" value="booking_name: User.Name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="b5-lC_gH31U_IA7LsAaC-40" vertex="1">
+        <mxCell id="b5-lC_gH31U_IA7LsAaC-41" value="booking_name: User.id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="b5-lC_gH31U_IA7LsAaC-40" vertex="1">
           <mxGeometry x="10" y="30" width="228" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="b5-lC_gH31U_IA7LsAaC-42" value="studio: Studio.Studio_Number" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="b5-lC_gH31U_IA7LsAaC-40" vertex="1">
+        <mxCell id="b5-lC_gH31U_IA7LsAaC-42" value="studio: Studio.id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="b5-lC_gH31U_IA7LsAaC-40" vertex="1">
           <mxGeometry x="10" y="50" width="245" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b5-lC_gH31U_IA7LsAaC-43" value="date: 12/12/22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="b5-lC_gH31U_IA7LsAaC-40" vertex="1">
@@ -157,10 +157,10 @@
         <mxCell id="b5-lC_gH31U_IA7LsAaC-82" value="Rita Toussaint: Booking" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1035" y="698" width="286" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="b5-lC_gH31U_IA7LsAaC-83" value="booking_name: User.Name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="b5-lC_gH31U_IA7LsAaC-82" vertex="1">
+        <mxCell id="b5-lC_gH31U_IA7LsAaC-83" value="booking_name: User.id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="b5-lC_gH31U_IA7LsAaC-82" vertex="1">
           <mxGeometry x="10" y="30" width="276" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="b5-lC_gH31U_IA7LsAaC-84" value="studio: Studio.Studio_Number" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="b5-lC_gH31U_IA7LsAaC-82" vertex="1">
+        <mxCell id="b5-lC_gH31U_IA7LsAaC-84" value="studio: Studio.id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="b5-lC_gH31U_IA7LsAaC-82" vertex="1">
           <mxGeometry x="10" y="58" width="252" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b5-lC_gH31U_IA7LsAaC-85" value="date: 10/12/22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="b5-lC_gH31U_IA7LsAaC-82" vertex="1">
